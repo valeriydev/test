@@ -10,35 +10,7 @@ const MainContent = () => {
     <div>
       <p>{displayInfo('asd')}</p>
 
-
-
-
-
-
-
-
-
-      <p>
-
-
-
-
-
-
-          {
-
-
-
-
-
-
-
-              displayInfo('single quoted strings')
-
-
-
-
-          }</p>
+      <p>{displayInfo('single quoted strings')}</p>
     </div>
   );
 };

@@ -8,7 +8,8 @@
     "dev": "next dev",
     "pre-commit": "lint-staged",
     "prettier": "prettier --write .",
-    "eslint": "eslint components/ pages/"
+    "eslint": "eslint components/ pages/",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
