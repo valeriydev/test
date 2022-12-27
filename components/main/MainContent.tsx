@@ -33,45 +33,15 @@ const MainContent = () => {
 
 
 
-          displayInfo('single quoted strings')
+              displayInfo('single quoted strings')
 
 
 
 
 
-
-
-
-
-
-
-          }
-
-
-
-
-      </p>
+          }</p>
     </div>
   );
 };
 
-
-
-
-
-
-
-
-
-
 export default MainContent;
-
-
-
-
-
-
-
-
-
-
