@@ -8,9 +8,11 @@ const MainContent = () => {
 
   return (
     <div>
-      <p>{displayInfo('asd')}</p>
+      <p>{displayInfo('Hello i`m p tag')}</p>
 
-      <p>{displayInfo('single quoted strings')}</p>
+      <h1>{displayInfo('Hello i`m h1 tag')}</h1>
+
+      <b>{displayInfo('Hello i`m b tag')}</b>
     </div>
   );
 };

@@ -6,9 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
-    "pre-commit": "lint-staged",
-    "prettier": "prettier --write .",
-    "eslint": "eslint components/ pages/",
     "prepare": "husky install"
   },
   "lint-staged": {
@@ -27,6 +24,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
     "@types/node": "18.11.18",
     "@types/react": "^18.0.26",
     "@typescript-eslint/eslint-plugin": "^5.47.1",
