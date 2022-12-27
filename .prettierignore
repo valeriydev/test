@@ -1,0 +1,7 @@
+# Ignore files:
+.next
+*.json
+.prettierrc
+.eslintrc
+next-config.js
+next-env.d.ts
