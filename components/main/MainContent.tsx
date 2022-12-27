@@ -8,8 +8,31 @@ const MainContent = () => {
 
   return (
     <div>
-      <p>{displayInfo('kljhklj;kjklhkj')}</p>
+      <p>{displayInfo('asd')}</p>
+      <p>
+          {
+
+
+              displayInfo('single quoted strings')
+
+
+
+          }
+
+
+
+      </p>
+
+
+
+
     </div>
+
+
+
+
+
+
   );
 };
 
