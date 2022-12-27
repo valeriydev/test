@@ -8,6 +8,16 @@ const MainContent = () => {
 
   return (
     <div>
+      <p>{displayInfo('asd')}</p>
+
+
+
+
+
+
+
+
+
       <p>
 
 
@@ -15,28 +25,10 @@ const MainContent = () => {
 
 
 
-
-          {displayInfo('asd')}
-
+          {
 
 
 
-
-      </p>
-
-
-
-
-
-
-
-      <p
-
-
-
-
-
-      >{
 
 
 
@@ -47,14 +39,39 @@ const MainContent = () => {
 
 
 
-      }</p>
-    </div
 
 
 
 
-    >
+
+
+          }
+
+
+
+
+      </p>
+    </div>
   );
 };
 
+
+
+
+
+
+
+
+
+
 export default MainContent;
+
+
+
+
+
+
+
+
+
+
